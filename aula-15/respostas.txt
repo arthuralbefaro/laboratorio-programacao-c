@@ -1,0 +1,17 @@
+AULA 15 - MATRIZES EM C: APLICACOES PRATICAS
+
+Relembrando
+1) Diferenca entre vetor e matriz: o vetor tem uma dimensao (um indice); a matriz
+   tem duas dimensoes, linhas e colunas (dois indices).
+2) int numeros[3][4] armazena 3 x 4 = 12 elementos.
+3) Usamos dois for porque um percorre as linhas e o outro percorre as colunas.
+
+Analise do codigo: numeros[1][2] = 60
+   (linha 1 = {40, 50, 60}, coluna 2 = 60)
+
+Pergunta: Por que a variavel totalProduto e inicializada com zero dentro do primeiro for?
+   Para que a soma recomece do zero a cada produto (cada linha). Se fosse zerada
+   so uma vez, fora do for, o total de um produto seria somado ao do proximo.
+
+Questao de revisao: o programa exibe 20
+   (2 + 4 + 6 + 8 = 20)

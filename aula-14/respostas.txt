@@ -1,0 +1,20 @@
+AULA 14 - MATRIZES EM C: INTRODUCAO
+
+Exercicio de fixacao - Revisao de conteudo
+
+1) Qual e a diferenca entre vetor e matriz?
+   O vetor organiza os elementos em uma unica dimensao e usa um indice (ex.: v[2]).
+   A matriz organiza os elementos em duas dimensoes, linhas e colunas, e usa dois
+   indices (ex.: m[1][2]).
+
+2) Quantos elementos possui uma matriz int dados[3][4]?
+   3 x 4 = 12 elementos.
+
+3) Por que normalmente utilizamos dois comandos for para percorrer uma matriz bidimensional?
+   Porque a matriz tem duas dimensoes: o for externo percorre as linhas e o for
+   interno percorre as colunas de cada linha, passando por todos os elementos.
+
+Questao - Reserva de assentos no cinema
+   Resposta: alternativa c) int assentos[5][8]; e assentos[1][2]
+   5 fileiras = 5 linhas e 8 assentos = 8 colunas. Como os indices comecam em zero,
+   a segunda fileira e a linha 1 e o terceiro assento e a coluna 2.
