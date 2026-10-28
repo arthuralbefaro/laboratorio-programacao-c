@@ -1,0 +1,17 @@
+AULA 16 - STRINGS EM C: EXERCICIOS DE REVISAO
+
+6) Qual e a diferenca entre char e uma string?
+   Uma variavel char armazena um unico caractere e e escrita com aspas simples,
+   por exemplo 'M'. Uma string e um vetor de char que guarda uma sequencia de
+   caracteres terminada por '\0' e e escrita com aspas duplas, por exemplo "Maria".
+
+7) Por que uma string precisa do caractere '\0'?
+   Porque e ele que indica onde o texto termina. Sem o '\0', funcoes como printf
+   com %s e lacos que percorrem a string nao saberiam onde parar e continuariam
+   lendo posicoes de memoria alem do texto.
+
+8) Qual e a diferenca entre ler um texto com scanf("%s", ...) e com fgets(...)?
+   O scanf com %s para de ler no primeiro espaco em branco, entao le apenas uma
+   palavra. O fgets le a linha inteira, incluindo espacos, e limita a quantidade
+   de caracteres ao tamanho do vetor. O fgets pode guardar o '\n' do Enter no fim
+   da string.
