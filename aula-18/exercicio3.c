@@ -10,7 +10,7 @@ int main()
 {
     int n;
 
-    printf("VERIFICADOR DE NUMEROS"\n\n);
+    printf("VERIFICADOR DE NUMEROS\n\n");
 
     printf("Digite um numero inteiro: ");
     scanf("%d", &n);

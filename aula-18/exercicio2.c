@@ -18,7 +18,7 @@ int main()
     scanf("%f", &preco2);
 
     if (preco1 == preco2)
-        printf("\nOs precos sao iguais: R$ %.2f\n", preco1)
+        printf("\nOs precos sao iguais: R$ %.2f\n", preco1);
     else
         printf("\nMaior preco: R$ %.2f\n", maiorPreco(preco1, preco2));
 

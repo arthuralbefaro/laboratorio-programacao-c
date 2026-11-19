@@ -23,7 +23,7 @@ float multiplicar(float a, float b) {
 }
 
 float dividir(float a, float b) {
-    return a / b
+    return a / b;
 }
 
 int main() {
